@@ -1,0 +1,21 @@
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container form h3 {
+  font-size: 3rem;
+  color: var(--red);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.anh {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+.btn {
+  margin-top: 60px;
+}

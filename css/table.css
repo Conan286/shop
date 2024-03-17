@@ -1,0 +1,36 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  font-size: 15px;
+}
+table,
+span {
+  text-align: center;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
+table {
+  background-color: aliceblue;
+  width: 1200px;
+  height: 200px;
+}
+table tr th {
+  font-size: 20px;
+}
+.flex-btns .delete-btn,
+.option-btn {
+  display: block;
+  width: 90%;
+  margin: 0.5rem;
+
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-size: 1rem;
+  padding: 1.5rem 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+}
